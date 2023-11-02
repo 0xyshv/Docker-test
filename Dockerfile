@@ -1,6 +1,6 @@
-FROM node:20
+FROM mhart/alpine-node
 
-WORKDIR /d/codes/docker
+WORKDIR /usr/src/
 
 COPY package* .
 
